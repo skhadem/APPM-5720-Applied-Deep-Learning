@@ -1,0 +1,4 @@
+*.gz
+*runs*
+*checkpoints*
+*.pyc

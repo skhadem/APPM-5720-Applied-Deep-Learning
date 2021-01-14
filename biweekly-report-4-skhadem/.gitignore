@@ -1,0 +1,5 @@
+*weights*
+*.ipynb_chec*
+*runs*
+*__pychache__*
+attention-networks/deformable-conv-nets/__pycache__/models.cpython-36.pyc

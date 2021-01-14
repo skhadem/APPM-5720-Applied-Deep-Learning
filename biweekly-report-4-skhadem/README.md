@@ -1,0 +1,14 @@
+# Biweekly Report 4
+## Soroush Khadem
+
+This week, I spent the majority of time reading attention papers. I have a learned a valuable lesson, which is that reading these papers takes skill. It takes me a few hours to get through each one, since I have to stop and look things up and re-read (and re-read again) sections that are unclear. It must be a great skill to be able to quickly identify the important parts of a paper, and then convey those ideas, like what is presented in class. Either way, my time was spent mostly reading the papers, understanding them, adding comments to the PDFs directly, and then starting to go through some of the implementations.
+
+I am finding myself drawn to these attention papers the more I read about them. It seems to make so much sense that some features should be worth more than others. My understanding is that with "traditional" CNNs, this weight of features is learned through the head of a network, i.e. the fully connected layers that "interpret" the final feature map. This seems pretty limited, and it seems to make much more sense to explicitly encode the idea of attention into the network. The performance gain is consistent across the works I've looked at, and usually the increase in complexity is not too bad. In addition, attention allows for introspection of the model, and visualizing how things are working, something I find so important. I love looking at visual cues into the working of different models. In addition, I had a few ideas about uses for the learned attention of models. One could be to speed up the labeling process, by running the attention on new examples to extract many candidate areas, and then having a system to quickly verify the contents of that region to define a bounding box. Another idea could be to use attention to augment data, for example in an adversarial way.
+
+
+I think I will spend more time on attention networks next report as well, some of the implementation work I did on the deformable convolutions was half-finished, and I didn't start on an implentation for Residual Attention Networks. If I continue to like the work of attention networks, I will most likely choose this area for a final project! I am excited to get a good understanding of object detection in class, since the networks I explored have many applications in object detection, and that would be fun direction to take.
+
+
+This report is slightly different than the typical ones I have been doing, it was much more focused on one topic. In addition, most of the work I did is in the form of comments on two papers. I have linked the Google Drive PDFs of the papers that have all my comments on them.
+
+Start [here](./attention-networks/README.md)

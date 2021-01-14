@@ -1,0 +1,16 @@
+From Report 1:
+- Visualization of Neural Nets
+- Adversarial images - see the "camouflage" shirts made for YOLO
+- Rather than simply getting a no-detection, try and get YOLO to detect a different class
+- Using adversarial examples as further regularization
+-------------------------------
+- Sort of crazy idea: Train a model to predict the accuracy of other models: Given an architecture, predict an accuracy on CIFAR-10.
+    - Need a way to feature-ize the model's architecture and hyperparams
+    - Labels are the performance (error %)
+    - Can scrape papers to get this
+    - This could then be used to help with hyperparam search. I.e. feed in a few different hyperparam combinations, and get out an accuracy without needing to actually train the new model
+- Style transfer on images
+    - Want to learn more applications of this, other than just art (which is still cool!)
+- Style transfer on audio
+    - Could have uses in generating accents, generating better autotune
+    - Haven't seen a paper for this 

@@ -1,0 +1,4 @@
+- Visualization of Neural Nets
+- Adversarial images - see the "camouflage" shirts made for YOLO
+- Rather than simply getting a no-detection, try and get YOLO to detect a different class
+- Using adversarial examples as further regularization
